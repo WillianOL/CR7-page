@@ -211,14 +211,12 @@ img{
 
 .rightImages img{
     border-radius: 30px 0px;
-    transition: all .5s ease;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.822);
-    position: relative;
+    transition: all .5s ease;
+    border-bottom: 5px solid var(--corDestaques);
+    border-right: 2px solid var(--corDestaques);
 }
 
-.rightImages img::before{
-    position: absolute;
-}
 
 .img01{
     width: 200px;
