@@ -34,13 +34,17 @@ img{
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-family: var(--fontSecundaria);
 }
 
 .header a{
     text-decoration: none;
+}
+
+.logo{
+    margin-left: 30px;
 }
 
 .logo img{
@@ -77,10 +81,11 @@ img{
 }
 
 .DevBtn{
-    width: 100px;
-    text-align: right;
+    margin-right: 50px;
 }
 
 .DevBtn a {
     color: var(--corWhite);
+    text-transform: uppercase;
+    padding: 10px;
 }
