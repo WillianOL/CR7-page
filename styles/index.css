@@ -149,8 +149,9 @@ img{
 .spanSiuu{
     font-size: 1.8em;
     font-weight: 600;
-    transform: scaleY(1.8);
-    animation: siuuAnimation 1.5s ease forwards;
+    transform: scaleY(2.3);
+    opacity: 0;
+    animation: siuuAnimation 1.5s .75s ease forwards;
 }
 
 @keyframes siuuAnimation {
@@ -175,15 +176,73 @@ img{
 #historia{
     height: 100vh;
     font-family: var(--fontPrincipal);
+    background: linear-gradient(120deg, #0B0F0E, #141414);
 }
 
 .history_container{
     display: flex;
-    width: 50%;
 }
 
 .textHistory{
+    width: 60%;
     font-size: 1.3em;
+    margin-right: 50px;
+    color: rgb(218, 218, 218);
 }
 
-.rightImages
+.textHistory p {
+    padding: 10px 5px;
+    position: relative;
+}
+
+.textHistory p::before{
+    position: absolute;
+    content: " ";
+    left: -20px;
+    top: 20px;
+    width: 20px;
+    height: 5px;
+    background-color: var(--corDestaques);
+}
+
+.marking{
+    color: var(--corDestaques);
+}
+
+.rightImages img{
+    border-radius: 30px 0px;
+    transition: all .5s ease;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.822);
+    position: relative;
+}
+
+.rightImages img::before{
+    position: absolute;
+}
+
+.img01{
+    width: 200px;
+    transform: translate(70px, -70px);
+}
+
+.img02{
+    width: 200px;
+    transform: translate(55px, 170px);
+}
+
+.img03{
+    width: 220px;
+    transform: translate(70px, 80px);
+}
+
+.img01:hover{
+    transform: translate(70px, -75px);
+}
+
+.img02:hover{
+    transform: translate(55px, 150px);
+}
+
+.img03:hover{
+    transform: translate(70px, 60px);
+}
