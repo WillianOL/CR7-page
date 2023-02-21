@@ -10,4 +10,8 @@
     --cor02: #F2A413;
 }
 
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
