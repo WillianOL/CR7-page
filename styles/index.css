@@ -26,7 +26,7 @@ img{
     display: grid;
     grid-template-rows: 1fr 3fr;
     height: 100vh;
-    background: rgba(0, 0, 0, .6) url(../imgs/cr7Wallpaper.jpg); 
+    background: rgba(0, 0, 0, .7) url(../imgs/cr7Wallpaper.jpg); 
     background-blend-mode: darken;
     background-position: top center;
     background-size: cover;
@@ -64,6 +64,7 @@ img{
     padding: 10px 15px 7px 15px;
     position: relative;
     color: var(--corWhite);
+    transition: all .5s ease;
 }
 
 .navegationBtns li{
@@ -85,15 +86,82 @@ img{
     width: 100%;
 }
 
+.navegationBtns a:hover{
+    letter-spacing: 1.5px;
+}
+
 .DevBtn{
     margin-right: 40px;
 }
 
-.DevBtn a {
+.DevBtn a{
+    position: relative;
+    font-weight: 600;
     color: var(--corDestaques);
     text-transform: uppercase;
+    letter-spacing: 5px;
     padding: 5px 20px;
     border: 2px solid var(--corWhite);
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.384);
     border-radius: 20px;
-    letter-spacing: 5px;
+    z-index: 1;
+}
+
+.DevBtn a::before{
+    position: absolute;
+    content: " ";
+    height: 100%;
+    width: 0;
+    background-color: #F2F0D5;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 12px;
+    transition: all .5s ease;
+}
+
+.DevBtn a:hover::before{
+    width: 100%;
+}
+
+/* Banner message */
+.bannerMessege{
+    max-width: 660px;
+    padding: 30px 20px 60px 60px;
+    font-family: var(--fontPrincipal);
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.bannerMessege p{
+    margin-bottom: 30px;
+}
+
+.spanColor{
+    color: var(--corDestaques);
+}
+
+.spanColor:first-child{
+    text-decoration: underline;
+}
+
+.spanSiuu{
+    font-size: 1.8em;
+    font-weight: 600;
+    transform: scaleY(1.8);
+    animation: siuuAnimation 1.5s ease forwards;
+}
+
+@keyframes siuuAnimation {
+    from{
+        opacity: 0;
+        letter-spacing: -30px;
+    }
+
+    to{
+        opacity: 1;
+        letter-spacing: 10px;
+        color: var(--corDestaques);
+    }
 }
