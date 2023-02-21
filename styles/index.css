@@ -26,8 +26,9 @@ img{
     display: grid;
     grid-template-rows: 1fr 3fr;
     height: 100vh;
-    background: rgba(0, 0, 0, .5) url(../imgs/cr7Wallpaper.jpg) center; 
+    background: rgba(0, 0, 0, .6) url(../imgs/cr7Wallpaper.jpg); 
     background-blend-mode: darken;
+    background-position: top center;
     background-size: cover;
     color: var(--corWhite);
 }
@@ -65,10 +66,14 @@ img{
     color: var(--corWhite);
 }
 
-.navegationBtns li a::before{
+.navegationBtns li{
+    position: relative;
+}
+
+.navegationBtns li::before{
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -7px;
     content: " ";
     width: 0;
     height: 3px;
@@ -76,16 +81,19 @@ img{
     transition: width .7s ease;
 }
 
-.navegationBtns li a:hover::before{
+.navegationBtns li:hover::before{
     width: 100%;
 }
 
 .DevBtn{
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 .DevBtn a {
-    color: var(--corWhite);
+    color: var(--corDestaques);
     text-transform: uppercase;
-    padding: 10px;
+    padding: 5px 20px;
+    border: 2px solid var(--corWhite);
+    border-radius: 20px;
+    letter-spacing: 5px;
 }
