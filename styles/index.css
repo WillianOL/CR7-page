@@ -15,3 +15,58 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+img{
+    width: 100px;
+}
+
+
+/* Presentation */
+.presentation{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5) url(../imgs/cr7Wallpaper.jpg) center; 
+    background-blend-mode: darken;
+    background-size: cover;
+    color: var(--corWhite);
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--fontSecundaria);
+}
+
+.header a{
+    text-decoration: none;
+    color: var(--corWhite);
+}
+
+.logo img{
+    border-radius: 20px;
+    width: 80px;
+    padding: 10px;
+}
+.navegationBtns ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+
+.navegationBtns li a{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.navegationBtns li a::before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: " ";
+    width: 100%;
+    height: 3px;
+    background-color: var(--corDestaques);
+}
