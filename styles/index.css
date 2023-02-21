@@ -41,7 +41,6 @@ img{
 
 .header a{
     text-decoration: none;
-    color: var(--corWhite);
 }
 
 .logo img{
@@ -59,6 +58,7 @@ img{
     text-transform: uppercase;
     padding: 10px 15px 7px 15px;
     position: relative;
+    color: var(--corWhite);
 }
 
 .navegationBtns li a::before{
@@ -74,4 +74,13 @@ img{
 
 .navegationBtns li a:hover::before{
     width: 100%;
+}
+
+.DevBtn{
+    width: 100px;
+    text-align: right;
+}
+
+.DevBtn a {
+    color: var(--corWhite);
 }
