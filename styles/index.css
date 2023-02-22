@@ -412,9 +412,11 @@ img{
 .games{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.games p{
+.txtGame{
     color: var(--corWhite);
     max-width: 40%;
     font-size: 1.2em;
@@ -428,6 +430,10 @@ img{
     padding: 20px;
     width: 50%;
     gap: 50px;
+    border-bottom: 6px solid var(--corDestaques);
+    border-right: 2px solid var(--corDestaques);
+    border-radius: 0px 10px 30px 10px;
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.466);
 }
 
 .placar p {
