@@ -358,9 +358,47 @@ img{
 
 /* Games section */
 #jogos{
+    font-family: var(--fontPrincipal);
+    min-height: 100vh;
     background: linear-gradient(120deg, #0B0F0E, #141414);
 }
 
-.container-jogos{
-    
+.container-jogos h1{
+    color: var(--corWhite);
+    text-transform: uppercase;
+    font-size: 2.3em;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.container-jogos h1::before{
+    position: absolute;
+    content: " ";
+    left: 0;
+    bottom: 0;
+    width: 1em;
+    height: 4px;
+    background-color: var(--corDestaques);
+}
+
+.container-jogos h2{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.container-jogos h2::before{
+    position: absolute;
+    content: " ";
+    left: -20px;
+    bottom: 8px;
+    width: 1em;
+    height: 5px;
+    border-radius: 20px 0px;
+    background-color: var(--corDestaques);
+}
+
+.jogos{
+    padding: 60px 20px;
 }
