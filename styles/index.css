@@ -422,7 +422,6 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column-reverse;
     flex-wrap: wrap;
     margin-bottom: 40px;
 }
@@ -445,7 +444,7 @@ img{
     border-bottom: 6px solid var(--corDestaques);
     border-right: 2px solid var(--corDestaques);
     border-radius: 0px 10px 30px 10px;
-    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.466);
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.466);
     min-width: 300px;
 }
 
@@ -462,5 +461,5 @@ img{
 }
 
 .games:nth-child(2) img:nth-child(1){
-    width: 90px;
+    width: 80px;
 }
