@@ -406,39 +406,28 @@ img{
     align-items: center;
     flex-direction: column;
     padding: 40px 20px;
+    width: 100%;
 }
 
-.games{
+.placar{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0px 10px 30px 10px;
-    border-bottom: 7px solid var(--corDestaques);
-    border-right: 3px solid var(--corDestaques);
+    padding: 20px;
     gap: 50px;
-    min-width: 500px;
-    min-height: 150px;
-    margin-bottom: 50px;
-    padding-bottom: 20px;
-    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.418);
 }
 
-.games p {
+.placar p {
     color: var(--corWhite);
     font-size: 1.8em;
     font-weight: 500;
     border-bottom: 3px solid var(--corDestaques);
 }
 
-.games:nth-child(1) img:nth-child(1){
-    width: 80px;
-    border-radius: 20px;
-}
-
-.games:nth-child(1) img:nth-child(3){
+.placar:nth-child(1) img:nth-child(3){
     width: 110px;
 }
 
-.games:nth-child(2) img:nth-child(1){
+.placar:nth-child(2) img:nth-child(1){
     width: 90px;
 }
