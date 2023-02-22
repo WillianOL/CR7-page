@@ -409,11 +409,24 @@ img{
     width: 100%;
 }
 
+.games{
+    display: flex;
+    align-items: center;
+}
+
+.games p{
+    color: var(--corWhite);
+    max-width: 40%;
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+
 .placar{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
+    width: 50%;
     gap: 50px;
 }
 
@@ -424,10 +437,11 @@ img{
     border-bottom: 3px solid var(--corDestaques);
 }
 
-.placar:nth-child(1) img:nth-child(3){
-    width: 110px;
+.games:nth-child(1) img:nth-child(1){
+    width: 70px;
+    border-radius: 20px;
 }
 
-.placar:nth-child(2) img:nth-child(1){
+.games:nth-child(2) img:nth-child(1){
     width: 90px;
 }
