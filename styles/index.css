@@ -185,6 +185,7 @@ img{
     font-size: 1.3em;
     margin-right: 50px;
     color: rgb(218, 218, 218);
+    margin-left: 20px;
 }
 
 .textHistory p {
@@ -201,6 +202,10 @@ img{
     height: 5px;
     border-radius: 20px 0px;
     background-color: var(--corDestaques);
+}
+
+.textHistory h1, h2{
+    margin-left: 20px;
 }
 
 .textHistory h1{
@@ -365,6 +370,10 @@ img{
     padding-top: 40px;
 }
 
+.container-game h1, h2{
+    margin-left: 50px;
+}
+
 .container-game h1{
     color: var(--corWhite);
     text-transform: uppercase;
@@ -413,14 +422,17 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .txtGame{
     color: var(--corWhite);
     max-width: 40%;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding-right: 20px;
+    min-width: 300px;
 }
 
 .placar{
@@ -434,6 +446,7 @@ img{
     border-right: 2px solid var(--corDestaques);
     border-radius: 0px 10px 30px 10px;
     box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.466);
+    min-width: 300px;
 }
 
 .placar p {
