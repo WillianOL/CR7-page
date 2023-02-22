@@ -196,9 +196,10 @@ img{
     position: absolute;
     content: " ";
     left: -20px;
-    top: 20px;
+    top: 22px;
     width: 20px;
     height: 5px;
+    border-radius: 20px 0px;
     background-color: var(--corDestaques);
 }
 
@@ -357,13 +358,14 @@ img{
 }
 
 /* Games section */
-#jogos{
+#game{
     font-family: var(--fontPrincipal);
     min-height: 100vh;
     background: linear-gradient(120deg, #0B0F0E, #141414);
+    padding-top: 40px;
 }
 
-.container-jogos h1{
+.container-game h1{
     color: var(--corWhite);
     text-transform: uppercase;
     font-size: 2.3em;
@@ -372,7 +374,7 @@ img{
     margin-bottom: 10px;
 }
 
-.container-jogos h1::before{
+.container-game h1::before{
     position: absolute;
     content: " ";
     left: 0;
@@ -382,23 +384,61 @@ img{
     background-color: var(--corDestaques);
 }
 
-.container-jogos h2{
+.container-game h2{
     font-size: 1.1em;
     letter-spacing: 1px;
     position: relative;
 }
 
-.container-jogos h2::before{
+.container-game h2::before{
     position: absolute;
     content: " ";
     left: -20px;
-    bottom: 8px;
+    top: 10px;
     width: 1em;
     height: 5px;
     border-radius: 20px 0px;
     background-color: var(--corDestaques);
 }
 
-.jogos{
-    padding: 60px 20px;
+.gamesContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.games{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 10px 30px 10px;
+    border-bottom: 7px solid var(--corDestaques);
+    border-right: 3px solid var(--corDestaques);
+    gap: 50px;
+    min-width: 500px;
+    min-height: 150px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.418);
+}
+
+.games p {
+    color: var(--corWhite);
+    font-size: 1.8em;
+    font-weight: 500;
+    border-bottom: 3px solid var(--corDestaques);
+}
+
+.games:nth-child(1) img:nth-child(1){
+    width: 80px;
+    border-radius: 20px;
+}
+
+.games:nth-child(1) img:nth-child(3){
+    width: 110px;
+}
+
+.games:nth-child(2) img:nth-child(1){
+    width: 90px;
 }
