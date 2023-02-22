@@ -86,10 +86,6 @@ img{
     width: 100%;
 }
 
-.navegationBtns a:hover{
-    letter-spacing: 1px;
-}
-
 .DevBtn{
     margin-right: 40px;
 }
@@ -358,4 +354,13 @@ img{
 
 .teamMarking2{
     color: var(--cor02);
+}
+
+/* Games section */
+#jogos{
+    background: linear-gradient(120deg, #0B0F0E, #141414);
+}
+
+.container-jogos{
+    
 }
