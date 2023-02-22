@@ -87,7 +87,7 @@ img{
 }
 
 .navegationBtns a:hover{
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 .DevBtn{
@@ -149,9 +149,9 @@ img{
 .spanSiuu{
     font-size: 1.8em;
     font-weight: 600;
-    transform: scaleY(2.3);
+    transform: scaleY(2.1);
     opacity: 0;
-    animation: siuuAnimation 1.5s .75s ease forwards;
+    animation: siuuAnimation 1s .75s ease forwards;
 }
 
 @keyframes siuuAnimation {
@@ -181,6 +181,7 @@ img{
 
 .history_container{
     display: flex;
+    align-items: center;
 }
 
 .textHistory{
@@ -203,6 +204,20 @@ img{
     width: 20px;
     height: 5px;
     background-color: var(--corDestaques);
+}
+
+.textHistory h1{
+    position: relative;
+    text-transform: uppercase;
+}
+
+.textHistory h1::before{
+    content: " ";
+    width: 30px;
+    height: 4px;
+    background-color: var(--corDestaques);
+    position: absolute;
+    bottom: 0;
 }
 
 .marking{
@@ -243,4 +258,18 @@ img{
 
 .img03:hover{
     transform: translate(70px, 60px);
+}
+
+/* Clubs section */
+#clubes{
+    height: 100vh;
+    font-family: var(--fontPrincipal);
+    background: url(../imgs/champions-banner.jpg) rgba(0, 0, 0, .5);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: darken;
+}
+
+.clubes_container{
+    padding: 20px;
 }
