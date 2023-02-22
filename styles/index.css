@@ -299,6 +299,16 @@ img{
     height: 100%;
 }
 
-.timesContainer img{
-    width: ;
+.times:first-child img{
+    width: 120px;
 }
+
+.times:nth-child(2) img{
+    width: 100px;
+}
+
+.times:nth-child(3) img{
+    width: 85px;
+    border-radius: 20px;
+}
+
