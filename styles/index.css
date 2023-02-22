@@ -6,7 +6,7 @@
     --fontSecundaria: 'Poppins', sans-serif;
     --corDestaques: #D92B4B;
     --corWhite: #F2F0D5;
-    --cor01: #D90416;
+    --cor01: #eb0417;
     --cor02: #F2A413;
 }
 
@@ -264,7 +264,7 @@ img{
 #clubes{
     height: 100vh;
     font-family: var(--fontPrincipal);
-    background: url(../imgs/champions-banner.jpg) rgba(0, 0, 0, .5);
+    background: url(../imgs/champions-banner.jpg) rgba(0, 0, 0, .6);
     background-size: cover;
     background-position: center center;
     background-blend-mode: darken;
@@ -293,22 +293,66 @@ img{
     letter-spacing: 5px;
 }
 
-.timesContainer{
+.teamContainer{
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    gap: 30px;
     height: 100%;
+    padding-top: 80px;
 }
 
-.times:first-child img{
+.team{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all .8s ease;
+}
+
+.team:hover{
+    border-top: 20px solid var(--cor01);
+    border-bottom: 20px solid var(--cor01);
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.team:nth-child(2):hover{
+    border-color: var(--cor02);
+}
+
+.team:nth-child(3):hover{
+    border-color: var(--corWhite);
+}
+
+.team img{
+    margin-bottom: 20px;
+}
+
+.team:first-child img{
     width: 120px;
 }
 
-.times:nth-child(2) img{
+.team:nth-child(2) img{
     width: 100px;
 }
 
-.times:nth-child(3) img{
+.team:nth-child(3) img{
     width: 85px;
     border-radius: 20px;
 }
 
+.team p{
+    font-size: 1.09rem;
+    font-weight: 300;
+    color: var(--corWhite);
+}
+
+.teamMarking{
+    color: var(--cor01);
+}
+
+.teamMarking2{
+    color: var(--cor02);
+}
