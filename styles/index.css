@@ -480,6 +480,8 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 50px;
+    padding-top: 40px;
 }
 
 
@@ -487,10 +489,12 @@ img{
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
-    border: 2px solid var(--corWhite);
-    padding: 10px 30px;
+    border-bottom: 5px solid var(--corDestaques);
+    border-right: 2px solid var(--corDestaques);
+    padding: 10px 20px;
     background-color: #141414;
     color: var(--corWhite);
+    border-radius: 20px 0px;
 }
 
 .dado{
@@ -502,6 +506,11 @@ img{
     font-size: 1.5em;
     width: 400px;
 }
+
+.dado p:first-child{
+    width: 85px;
+    text-align: left;
+}   
 
 .infDado{
     width: 200px;
@@ -517,5 +526,5 @@ img{
 }
 
 .imgRight img{
-    width: 300px;
+    width: 25vw;
 }
