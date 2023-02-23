@@ -96,9 +96,8 @@ img{
     color: var(--corDestaques);
     text-transform: uppercase;
     letter-spacing: 5px;
-    padding: 5px 20px;
+    padding: 3px 20px;
     border: 2px solid var(--corWhite);
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.384);
     border-radius: 20px;
     z-index: 1;
 }
@@ -143,9 +142,9 @@ img{
 }
 
 .spanSiuu{
-    font-size: 1.8em;
+    font-size: 2.5em;
+    transform: scaleY(1.2);
     font-weight: 600;
-    transform: scaleY(2.1);
     opacity: 0;
     animation: siuuAnimation 1s .75s ease forwards;
 }
@@ -318,7 +317,7 @@ img{
 }
 
 .team:hover{
-    border-bottom: 15px solid var(--cor01);
+    border-bottom: 10px solid var(--cor01);
     transform: scale(1.1);
     background-color: rgba(0, 0, 0, 0.267);
 }
@@ -446,6 +445,7 @@ img{
     border-radius: 0px 10px 30px 10px;
     box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.466);
     min-width: 300px;
+    transition: transform .5s ease, box-shadow .5s ease;
 }
 
 .placar p {
@@ -453,6 +453,11 @@ img{
     font-size: 1.8em;
     font-weight: 500;
     border-bottom: 3px solid var(--corDestaques);
+}
+
+.placar:hover{
+    transform: translateY(-7px);
+    box-shadow: 10px 10px 7px rgba(34, 34, 34, 0.466);
 }
 
 .games:nth-child(1) img:nth-child(1){
