@@ -527,8 +527,13 @@ img{
 }
 
 .imgRight img{
-    width: 25vw;
+    width: 350px;
     position: relative;
+    transition: .5s ease;
+}
+
+.imgRight img:hover{
+    transform: scale(1.1);
 }
 
 .imgRight{
@@ -555,4 +560,18 @@ img{
     top: 200px;
     right: -40px;
     transform: rotate(130deg);
+}
+
+.imgRight .list{
+    position: absolute;
+    top: -60px;
+    left: -200px;
+    color: var(--corWhite);
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.markingList{
+    color: var(--corDestaques);
+    font-size: 1.1rem;
 }
