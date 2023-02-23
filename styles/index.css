@@ -373,7 +373,7 @@ img{
     margin-left: 50px;
 }
 
-.container-game h1{
+.titulos{
     color: var(--corWhite);
     text-transform: uppercase;
     font-size: 2.3em;
@@ -382,7 +382,7 @@ img{
     margin-bottom: 10px;
 }
 
-.container-game h1::before{
+.titulos::before{
     position: absolute;
     content: " ";
     left: 0;
@@ -392,13 +392,13 @@ img{
     background-color: var(--corDestaques);
 }
 
-.container-game h2{
+.subTitulos{
     font-size: 1.1em;
     letter-spacing: 1px;
     position: relative;
 }
 
-.container-game h2::before{
+.subTitulos::before{
     position: absolute;
     content: " ";
     left: -20px;
@@ -472,9 +472,50 @@ img{
 /* Data section */
 #dados{
     min-height: 100vh;
-    background-color: #141414;
+    background-color: #0B0F0E;
+    font-family: var(--fontPrincipal);
 }
 
-.container-dados{
+.statisticas-conteiner{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dadosConteiner{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    border: 2px solid var(--corWhite);
+    padding: 10px 30px;
+    background-color: #141414;
+    color: var(--corWhite);
+}
+
+.dado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 400px;
+}
+
+.infDado{
+    width: 200px;
+    height: 30px;
+    border: 1px solid white;
+
+}
+
+.infDado div{
+    background-color: white;
+    width: 82%;
+    height: 100%;
+}
+
+.imgRight img{
+    width: 300px;
 }
