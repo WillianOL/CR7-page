@@ -738,10 +738,6 @@ img{
     justify-content: center;
     flex-direction: column;
     gap: 100px;
-    transition: all .5s ease;
-}
-
-.ativo{
     opacity: 0;
     overflow: hidden;
     position: absolute;
@@ -758,14 +754,14 @@ img{
     animation: menuMobile 1s ease forwards;
 }
 
-.ativo ul{
+.navegationBtns.ativo ul{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.ativo li{
+.navegationBtns.ativo li{
     text-align: center;
     width: 100%;
     padding: 5px 0px;
