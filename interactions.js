@@ -1,6 +1,6 @@
 function initScrollSuave() {
     const links = document.querySelectorAll('.menuJs a');
-    
+
     function scrollParaSection(event) {
         event.preventDefault();
         const href = event.target.getAttribute('href');
@@ -31,3 +31,15 @@ function initContentShow() {
     window.addEventListener('scroll', animationScroll)
 }
 initContentShow();
+
+function iniMenuMobile() {
+    const btnMobile = document.querySelector('.mobileBtn');
+
+    function abrirMenuMobile() {
+        const menu = document.querySelector('.navegationBtns');
+        menu.classList.toggle('ativo');
+    }
+
+    btnMobile.addEventListener('click', abrirMenuMobile)
+}
+iniMenuMobile();

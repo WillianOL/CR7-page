@@ -38,6 +38,7 @@ img{
     justify-content: space-between;
     align-items: center;
     font-family: var(--fontSecundaria);
+    position: relative;
 }
 
 .header a{
@@ -107,6 +108,7 @@ img{
 .mobileBtn:hover{
     background-color: var(--corDestaques);
     color:#0B0F0E;
+    cursor: pointer;
 }
 
 .DevBtn{
@@ -648,6 +650,13 @@ img{
         display: block;
     }
 
+    .DevBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+    }
+
     .logo{
         margin: 0px;
     }
@@ -709,6 +718,7 @@ img{
     .imgRight img{
         width: 50vw;
     }
+
 }
 
 .animationSection{
@@ -720,5 +730,55 @@ img{
 @keyframes showContent{
     to{
         transform: translateX(0px);
+    }
+}
+
+.navegationBtns.ativo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    transition: all .5s ease;
+}
+
+.ativo{
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #0B0F0E;
+    padding: 20px 10px;
+    width: 0px;
+    height: 100vh;
+    border-radius: 0px 30px 30px 0px;
+    border-right: 3px solid var(--corDestaques);
+    z-index: 1000;
+    transition: all 1s ease;
+    animation: menuMobile 1s ease forwards;
+}
+
+.ativo ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ativo li{
+    text-align: center;
+    width: 100%;
+    padding: 5px 0px;
+    transition: background-color .5s ease;
+}
+
+.ativo li:hover{
+    background-color: #141414;
+}
+
+@keyframes menuMobile{
+    to{
+        opacity: 1;
+        width: 250px;
     }
 }
