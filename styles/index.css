@@ -526,10 +526,23 @@ img{
     height: 100%;
 }
 
+.dado:nth-child(2) .infDado div{
+    width: 95%;
+}
+
+.dado:nth-child(3) .infDado div{
+    width: 91%;
+}
+
+.dado:nth-child(4) .infDado div{
+    width: 94%;
+}
+
 .imgRight img{
     width: 350px;
     position: relative;
     transition: .5s ease;
+    z-index: 3;
 }
 
 .imgRight img:hover{
@@ -543,29 +556,39 @@ img{
 .imgRight::before{
     content: " ";
     height: 3px;
-    width: 150px;
+    width: 120px;
     background-color: var(--corDestaques);
     position: absolute;
     top: 100px;
-    left: -60px;
-    transform: rotate(30deg);
+    left: -20px;
+    transform: rotate(35deg);
 }
 
 .imgRight::after{
     content: " ";
     height: 3px;
-    width: 150px;
+    width: 120px;
     background-color: var(--corDestaques);
     position: absolute;
-    top: 200px;
-    right: -40px;
+    top: 270px;
+    right: -0px;
     transform: rotate(130deg);
+    z-index: 1;
 }
 
 .imgRight .list{
     position: absolute;
     top: -60px;
-    left: -200px;
+    left: -160px;
+    color: var(--corWhite);
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.imgRight .list02{
+    position: absolute;
+    top: -15px;
+    right: -120px;
     color: var(--corWhite);
     text-transform: uppercase;
     list-style: none;
