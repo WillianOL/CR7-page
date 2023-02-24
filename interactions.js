@@ -9,7 +9,7 @@ function initScrollSuave() {
         
         section.scrollIntoView({
             behavior: "smooth",
-        }) 
+        });
     }
 
     links.forEach((link) => {
