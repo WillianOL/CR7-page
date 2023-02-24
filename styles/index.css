@@ -94,11 +94,19 @@ img{
 
 .mobileBtn{
     margin-right: 25px;
+    border-radius: 10px;
+    transition: all .5s ease;
+    display: none;
 }
 
 .mobileBtn i{
     font-size: 2.5em;
-    padding: 10px;
+    padding: 5px;
+}
+
+.mobileBtn:hover{
+    background-color: var(--corDestaques);
+    color:#0B0F0E;
 }
 
 .DevBtn{
@@ -179,8 +187,10 @@ img{
 
 /* History section */
 .flex_conteiner{
+    opacity: 0;
     max-width: 1000px;
     margin: 0 auto;
+    transition: all .5s ease;
 }
 
 #historia{
@@ -676,10 +686,39 @@ img{
     }
 
     .placar{
-        
+        width: 100%;
+        gap: 40px;
+    }
+
+    .dadosConteiner{
+        padding: 0;
+    }
+
+    .dado{
+        width: 300px;
     }
 
     .bannerMessege{
         padding: 50px 20px 60px 10px;
+    }
+
+    .imgRight{
+        margin-left: 10px;
+    }
+
+    .imgRight img{
+        width: 50vw;
+    }
+}
+
+.animationSection{
+    opacity: 1;
+    animation: showContent .5s ease forwards;
+    transform: translateX(-100px);
+}
+
+@keyframes showContent{
+    to{
+        transform: translateX(0px);
     }
 }
