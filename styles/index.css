@@ -241,12 +241,12 @@ img{
 
 .img02{
     width: 200px;
-    transform: translate(55px, 170px);
+    transform: translate(55px, 110px);
 }
 
 .img03{
     width: 220px;
-    transform: translate(70px, 80px);
+    transform: translate(70px, 0px);
 }
 
 .img01:hover{
@@ -481,7 +481,7 @@ img{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 130px;
     padding-top: 40px;
 }
 
@@ -539,7 +539,7 @@ img{
 }
 
 .imgRight img{
-    width: 350px;
+    width: 310px;
     position: relative;
     transition: .5s ease;
     z-index: 3;
@@ -551,38 +551,19 @@ img{
 
 .imgRight{
     position: relative;
-}
-
-.imgRight::before{
-    content: " ";
-    height: 3px;
-    width: 120px;
-    background-color: var(--corDestaques);
-    position: absolute;
-    top: 100px;
-    left: -20px;
-    transform: rotate(35deg);
-}
-
-.imgRight::after{
-    content: " ";
-    height: 3px;
-    width: 120px;
-    background-color: var(--corDestaques);
-    position: absolute;
-    top: 270px;
-    right: -0px;
-    transform: rotate(130deg);
-    z-index: 1;
+    margin-left: 90px;
 }
 
 .imgRight .list{
     position: absolute;
-    top: -60px;
-    left: -160px;
+    top: 5px;
+    left: -100px;
     color: var(--corWhite);
     text-transform: uppercase;
     list-style: none;
+    padding-left: 5px;
+    border-left: 3px solid var(--corDestaques);
+    border-radius: 10px;
 }
 
 .imgRight .list02{
@@ -592,9 +573,41 @@ img{
     color: var(--corWhite);
     text-transform: uppercase;
     list-style: none;
+    padding-left: 5px;
+    border-left: 3px solid var(--corDestaques);
+    border-radius: 10px;
 }
 
 .markingList{
     color: var(--corDestaques);
     font-size: 1.1rem;
+}
+
+/* Responsivo */
+@media (max-width: 985px){
+    .history_container{
+        flex-direction: column;
+    }
+
+    .img01, .img02, .img03{
+        transform: translate(0px, 0px);
+        margin: 10px 5px;
+    }
+
+    .img01:hover, .img02:hover, .img03:hover{
+        transform: translateY(-10px);
+    }
+
+    .statisticas-conteiner{
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .statisticas-conteiner img{
+        width: 250px;
+    }
+
+    .list{
+        left: -120px;
+    }
 }
