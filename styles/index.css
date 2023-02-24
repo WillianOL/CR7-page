@@ -53,6 +53,12 @@ img{
     width: 80px;
     padding: 10px;
 }
+
+.navegationBtns{
+    display: flex;
+    gap: 50px;
+}
+
 .navegationBtns ul{
     display: flex;
     list-style: none;
@@ -84,6 +90,15 @@ img{
 
 .navegationBtns li:hover::before{
     width: 100%;
+}
+
+.mobileBtn{
+    margin-right: 25px;
+}
+
+.mobileBtn i{
+    font-size: 2.5em;
+    padding: 10px;
 }
 
 .DevBtn{
@@ -290,6 +305,7 @@ img{
 }
 
 .clubes_container h2{
+    margin: 0;
     font-size: 1em;
     letter-spacing: 5px;
 }
@@ -599,7 +615,7 @@ img{
     }
 
     .statisticas-conteiner{
-        gap: 10px;
+        gap: 20px;
         flex-direction: column;
     }
 
@@ -607,7 +623,63 @@ img{
         width: 250px;
     }
 
-    .list{
-        left: -120px;
+    .imgRight .list{
+        left: -130px;
+    }
+
+}
+
+@media (max-width: 730px) {
+    .navegationBtns{
+        display: none;
+    }
+
+    .mobileBtn{
+        display: block;
+    }
+
+    .logo{
+        margin: 0px;
+    }
+
+    .DevBtn{
+        margin: 0px;
+    }
+
+    .bannerMessege{
+        font-size: 2.3rem;
+    }
+
+    .imgRight .list02{
+        width: 180px;
+        left: -130px;
+        top: 150px;
+    }
+
+    .imgRight img{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .infDado{
+        width: 30vw;
+    }
+
+    .imgRight .list{
+        width: 120px;
+        left: -50px;
+    }
+
+    .imgRight .list02{
+        display: none;
+    }
+
+    .placar{
+        
+    }
+
+    .bannerMessege{
+        padding: 50px 20px 60px 10px;
     }
 }
