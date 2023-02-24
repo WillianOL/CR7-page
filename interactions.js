@@ -1,7 +1,6 @@
 function initScrollSuave() {
-    const links = document.querySelectorAll('.menuJs a')
-    console.log(links);
-
+    const links = document.querySelectorAll('.menuJs a');
+    
     function scrollParaSection(event) {
         event.preventDefault();
         const href = event.target.getAttribute('href');
@@ -14,12 +13,11 @@ function initScrollSuave() {
 
     links.forEach((link) => {
         link.addEventListener('click', scrollParaSection);
-    })
+    });
 }
 initScrollSuave();
 
 function initContentShow() {
-
     function animationScroll(){
         const sections = document.querySelectorAll('.flex_conteiner')
         sections.forEach((section) => {
