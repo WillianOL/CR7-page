@@ -38,6 +38,7 @@ function iniMenuMobile() {
         const menu = document.querySelector('.navegationBtns');
         menu.classList.toggle('ativo');
     }
+    
     btnMobile.addEventListener('click', abrirMenuMobile)
 }
 iniMenuMobile();

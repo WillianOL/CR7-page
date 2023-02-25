@@ -733,6 +733,7 @@ img{
     }
 }
 
+/* Menu lateral */
 .navegationBtns.ativo{
     display: flex;
     justify-content: center;
