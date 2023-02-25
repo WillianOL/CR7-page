@@ -34,12 +34,10 @@ initContentShow();
 
 function iniMenuMobile() {
     const btnMobile = document.querySelector('.mobileBtn');
-
     function abrirMenuMobile() {
         const menu = document.querySelector('.navegationBtns');
         menu.classList.toggle('ativo');
     }
-
     btnMobile.addEventListener('click', abrirMenuMobile)
 }
 iniMenuMobile();
