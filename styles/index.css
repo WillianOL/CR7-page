@@ -277,15 +277,15 @@ img{
 }
 
 .img01:hover{
-    transform: translate(70px, -75px);
+    transform: translate(70px, -80px);
 }
 
 .img02:hover{
-    transform: translate(55px, 150px);
+    transform: translate(55px, 90px);
 }
 
 .img03:hover{
-    transform: translate(70px, 60px);
+    transform: translate(70px, -15px);
 }
 
 /* Clubs section */
