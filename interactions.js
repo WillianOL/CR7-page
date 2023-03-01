@@ -1,5 +1,5 @@
 function initScrollSuave() {
-    const links = document.querySelectorAll('a');
+    const links = document.querySelectorAll('.menuJs a');
 
     function scrollParaSection(event) {
         event.preventDefault();

@@ -612,7 +612,11 @@ img{
 }
 
 /* Footer */
-
+.conteiner_footer{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #141414;
+}
 
 
 
