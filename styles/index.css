@@ -673,6 +673,28 @@ img{
     box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5), inset 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
+.font ul{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.font ul li{
+    position: relative;
+}
+
+.font ul li::before{
+    position: absolute;
+    content: " ";
+    background-color: var(--corDestaques);
+    left: -20px;
+    top: 8px;
+    width: 15px;
+    height: 8px;
+    border-radius: 10px 0px;
+
+}
+
+
 .contatos::before{
     content: " ";
     position: absolute;
@@ -690,7 +712,7 @@ img{
 
 
 .contatos a{
-    color: white;
+    color: rgba(255, 255, 255, 0.685);
     text-decoration: none;
 }
 
