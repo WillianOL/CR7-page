@@ -9,7 +9,7 @@ function initScrollSuave() {
         });
     }
 
-    links.forEach((link) => { // Cria a função com evento de click
+    links.forEach((link) => { // Cria a função com evento de click nos links.
         link.addEventListener('click', scrollParaSection);
     });
 }
@@ -31,12 +31,12 @@ function initContentShow() {
 initContentShow();
 
 function iniMenuMobile() {
-    const btnMobile = document.querySelector('.mobileBtn');
+    const btnMobile = document.querySelector('.mobileBtn'); // Seleciona o botão do menu mobile.
     function abrirMenuMobile() {
         const menu = document.querySelector('.navegationBtns');
         menu.classList.toggle('ativo');
     }
     
-    btnMobile.addEventListener('click', abrirMenuMobile)
+    btnMobile.addEventListener('click', abrirMenuMobile) // Função com evento de click do menu mobile.
 }
 iniMenuMobile();
