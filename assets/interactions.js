@@ -34,7 +34,7 @@ function iniMenuMobile() {
     const btnMobile = document.querySelector('.mobileBtn'); // Seleciona o botão do menu mobile.
     function abrirMenuMobile() {
         const menu = document.querySelector('.navegationBtns');
-        menu.classList.toggle('ativo');
+        menu.classList.toggle('ativo'); // Adiciona a classe caso tenha, remove caso não tenha
     }
     
     btnMobile.addEventListener('click', abrirMenuMobile) // Função com evento de click do menu mobile.
