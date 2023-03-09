@@ -120,6 +120,7 @@
 </div>
 
 <div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224170919-6f41959f-9a80-4ea5-adce-deb0eccbe861.png" width="700px">
 	<img src="https://user-images.githubusercontent.com/112639055/224168128-894e2d3d-b2ee-4ed6-b695-3194a4bdf42a.png" width="700px">
 </div>
 
