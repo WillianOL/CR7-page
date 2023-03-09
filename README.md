@@ -123,8 +123,16 @@
 	<img src="https://user-images.githubusercontent.com/112639055/224170919-6f41959f-9a80-4ea5-adce-deb0eccbe861.png" width="700px">
 	<img src="https://user-images.githubusercontent.com/112639055/224168128-894e2d3d-b2ee-4ed6-b695-3194a4bdf42a.png" width="700px">
 </div>
+	
+&nbsp;
+&nbsp;
 
+<div>
+	<p>No footer, foi colocado as fontes onde foi pega as informações, e os botões de contato(também animados).</p>
+</div>
 
-
-
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224172675-b7eca041-a9bb-4896-a1ac-a49ceb985154.png" width="700px">
+	<img src="https://user-images.githubusercontent.com/112639055/224172594-050ece88-58f5-4cee-b2b4-f228d64d3eba.png" width="700px">
+</div>
 
