@@ -46,7 +46,7 @@
 #### Tela inicial e botões de navegação
 
 <div>
-	<p>Logo ao abrir a página, é disparada a animação do texto principal. Que é o "SIUU!!", aparecendo e aumentanto o espaçamento entre as letras. Fazendo isso utilizando de um <strong>animação em keyFrames.</strong></p>
+	<p>Logo ao abrir a página, é disparada a animação do texto principal. Que é o "SIUU!!", aparecendo e aumentanto o espaçamento entre as letras. Fazendo isso utilizando de uma <strong>animação em keyFrames.</strong></p>
 </div>
 
 <div align="center">
