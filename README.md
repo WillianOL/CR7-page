@@ -55,5 +55,10 @@
 &nbsp;
 
 <div>
-	<p>Na barra de navegação(menu), todos os botões são animados, indicando ao usuário que é um elemento clicável. Todos eles <strong>feitos com o "::before" e a propriedade "position" do CSS.</strong></p>
+	<p>Na barra de navegação(menu), todos os botões são animados, indicando ao usuário que é um elemento clicável. Todos eles <strong>feitos com o "::before" e a propriedade "position" do CSS.</strong> Utilizando do <strong> ":hover"</strong>  para fazer a faixa embaixo dos botões aparecerem.</p>
+</div>
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224106565-7ff8ec48-bd6e-4e90-9b80-ca3a5d789531.gif" width="700px">
+	<img src="https://user-images.githubusercontent.com/112639055/224107651-21da8725-9dc1-4db1-8419-69cc5e2de02a.png" width="700px">
 </div>
