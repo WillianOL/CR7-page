@@ -88,7 +88,17 @@
 	<img src="https://user-images.githubusercontent.com/112639055/224118505-8ecdb28a-c6d9-41fb-979f-57831ffe2972.png" width="700px">
 </div>
 
+&nbsp;
+&nbsp;
 
+<div>
+	<p>Sobre a seção de jogos, nela foi feita com a ideia de destacar os <strong>placares feitos inteiramente com CSS,</strong> ao lado, a descrição da partida. Na mesma lógica dos clubes, <strong>ao passar o cursor/clicar no placar, ele é destacado.</strong></p>
+</div>
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224122325-b4729b8f-87c3-4a5f-9d09-fba10908ae05.png" width="700px">
+	<img src="https://user-images.githubusercontent.com/112639055/224122698-16011c02-04b5-4559-88ba-81d7f64e0eeb.png" width="700px">
+</div>
 
 
 
