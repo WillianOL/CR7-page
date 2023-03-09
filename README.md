@@ -33,7 +33,7 @@
 </div>
 	
 <div>
-	<p>Projeto desenvovido com objetivo de praticar as principáis ferramentas que uso atualmente, e testar conhecimentos em CSS, HTML e JavaScript. Uma página completa sobre o jogador Cristiano Ronaldo, com informações sobre a história que ele fez no futebol.</p>
+	<p>Projeto desenvovido com objetivo de praticar as principáis ferramentas que estou usando atualmente(JavaScript, CSS & HTML), e testar os conhecimentos nas mesmas. Uma página completa sobre o jogador Cristiano Ronaldo, com informações sobre a história que ele fez no futebol.</p>
 	<p>Com duas cores base e de destaque em todo o projeto, seu estilo tende a ser moderno, tanto em design quanto em sua estrura. A maioria dos elementos da página são animados. Com funcionalidades feitas com JavaScript, dando um charme a mais na página.</p>
 </div>
 
@@ -58,7 +58,7 @@
 &nbsp;
 
 <div>
-	<p>Na barra de navegação(menu), todos os botões são animados, indicando ao usuário que é um elemento clicável. Todos eles <strong>feitos com o "::before" e a propriedade "position" do CSS.</strong> Utilizando do <strong> ":hover"</strong>  para fazer a faixa embaixo dos botões aparecerem.</p>
+	<p>Na barra de navegação(menu), todos os botões são animados, indicando ao usuário que é um elemento clicável. Todos eles <strong>feitos com o "::before" e a propriedade "position" do CSS.</strong> Utilizando do <strong> ":hover"</strong>  para fazer a faixa embaixo dos botões aparecerem, e o botão dev ser preenchido.</p>
 </div>
 
 <div align="center">
@@ -80,7 +80,7 @@
 &nbsp;
 
 <div>
-	<p>Na seção de clubes, foi feita com uma <strong>ideia de cards,</strong> onde cada clube foi separado em cards animados. Ao <strong>passar o cursor/clicar no card, um zoom é aplicado e uma barra em baixo da mesma é revelada.</strong> Isso feito com <strong>":hover"</strong> e aplicando os valores de <strong>"transform: scale()".</strong> Além disso, foi aplicado um fundo personalizado.</p>
+	<p>Na seção de clubes, foi feita com uma <strong>ideia de cards,</strong> onde cada clube foi separado em cards animados. Ao <strong>passar o cursor/clicar no card, um zoom é aplicado no conteúdo e uma barra em baixo da mesma é revelada.</strong> Isso feito com <strong>":hover"</strong> e aplicando os valores de <strong>"transform: scale()".</strong> Além disso, foi colocado um fundo personalizado.</p>
 </div>
 
 <div align="center">
@@ -96,9 +96,34 @@
 </div>
 
 <div align="center">
-	<img src="https://user-images.githubusercontent.com/112639055/224122325-b4729b8f-87c3-4a5f-9d09-fba10908ae05.png" width="700px">
+	<img src="https://user-images.githubusercontent.com/112639055/224163407-3f39ce48-a5d8-4007-b6b4-bb877168caf7.png" width="700px">
 	<img src="https://user-images.githubusercontent.com/112639055/224122698-16011c02-04b5-4559-88ba-81d7f64e0eeb.png" width="700px">
 </div>
+
+&nbsp;
+&nbsp;
+
+<div>
+	<p>A seção de dados foi a <strong>parte do projeto que mais usou CSS.</strong> Onde foi dividido em duas partes: Do lado esquerdo a imagem do jogador, do lado direito os status.</p>
+</div>
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224166274-d15620a7-d48d-4b04-8c65-69ca368dc0b7.png" width="700px">
+	<img src="https://user-images.githubusercontent.com/112639055/224166319-f510b2b1-7ad2-46eb-8458-1738848dac1a.png" width="700px">
+</div>
+
+&nbsp;
+&nbsp;
+
+<div>
+	<p>O painel dos status foi feito <strong>inteiramente com CSS.</strong> Para cada nivel das habilidades, a div é <strong>preenchida com sua respectiva porcentagem.</strong></p>
+</div>
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224168128-894e2d3d-b2ee-4ed6-b695-3194a4bdf42a.png" width="700px">
+</div>
+
+
 
 
 
