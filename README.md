@@ -37,7 +37,7 @@
 	<p>Com duas cores base e de destaque em todo o projeto, seu estilo tende a ser moderno, tanto em design quanto em sua estrura. A maioria dos elementos da página são animados. Com funcionalidades feitas com JavaScript, dando um charme a mais na página.</p>
 </div>
 
-<hr>
+#
 
 <div>
 	<h3> <img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> &nbsp;HTML e CSS</h3>
@@ -136,6 +136,28 @@
 	<img src="https://user-images.githubusercontent.com/112639055/224172594-050ece88-58f5-4cee-b2b4-f228d64d3eba.png" width="700px">
 </div>
 	
-##  <img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> &nbsp;JavaScript
+#
 	
+###  <img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> &nbsp;JavaScript
+#### Show content - Aparecer conteúdo
 	
+<div>
+	<p>Todo o conteúdo da página está em primeiro momento com "opacity: 0", e utilizando de JavaScript para faze-lo aparecer quando o usuário estiver rolando pela página.</p>
+	<p>Primeiro, é criado uma <strong>função com evento de "scroll" no objeto "window", através do "addEventListener()".</strong></p>
+</div>
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224194849-f6ca0323-728c-4bc5-9116-ecb8cba14cfd.png" width="700px">
+</div>
+
+&nbsp;
+&nbsp;
+	
+<div>
+	<p>Na estrutura da função, é criada uma <strong>constante que seleciona todas as sections da página, uma NodeList.</strong> Usa-se o método <strong>"forEach"</strong> com o <strong>parâmetro "section"</strong> para trabalhar com a lista de elementos. Logo após, é <strong>criada uma constante (topSection) para pegar o topo da section em relação ao scroll do usuário</strong>, através do método <strong>"getBoundingClientRect()"</strong> com a propriedade ".top" diminuindo 300.</p>
+	<p>Depois, usando a condicional "IF" é passado o argumento: topSection <= 0; Ou seja, quando o topo da section for menor ou igual a 0, adicione a classe "animationSection" </p>
+</div>
+	
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224200064-9bdee69e-2041-4f0f-9577-5efe70a66a71.png" width="700px">
+</div>
