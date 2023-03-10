@@ -39,8 +39,8 @@
 
 <hr>
 
-<div display>
-	<h3> <img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">HTML e CSS</h3>
+<div>
+	<h3> <img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> &nbsp;HTML e CSS</h3>
 </div>
 
 #### Tela inicial e botões de navegação
@@ -135,4 +135,7 @@
 	<img src="https://user-images.githubusercontent.com/112639055/224172675-b7eca041-a9bb-4896-a1ac-a49ceb985154.png" width="700px">
 	<img src="https://user-images.githubusercontent.com/112639055/224172594-050ece88-58f5-4cee-b2b4-f228d64d3eba.png" width="700px">
 </div>
-
+	
+##  <img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> &nbsp;JavaScript
+	
+	
