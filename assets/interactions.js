@@ -17,10 +17,10 @@ initScrollSuave();
 
 function initContentShow() {
     function animationScroll(){
-        const sections = document.querySelectorAll('.flex_conteiner') // Seleciona todas as sections da página.
-        sections.forEach((section) => { // Método forEach
-            const topSection = section.getBoundingClientRect().top - 300; // Pega o topo da section selecionada com -300 para aparecer antes.
-            if(topSection <= 0){ // Quando essa altura for <= a 0, adiciona a classe para aparecer o conteúdo da section.(animado com CSS)
+        const sections = document.querySelectorAll('.flex_conteiner') 
+        sections.forEach((section) => { 
+            const topSection = section.getBoundingClientRect().top - 300; 
+            if(topSection <= 0){ 
                 section.classList.add('animationSection')
             }
         })
