@@ -156,26 +156,33 @@
 	
 <div>
 	<p>Na estrutura da função, é criada uma <strong>constante que seleciona todas as sections da página, uma NodeList.</strong> Usa-se o método <strong>"forEach"</strong> com o <strong>parâmetro "section"</strong> para trabalhar com a lista de elementos. Logo após, é <strong>criada uma constante(topSection) para pegar o topo da section em relação ao scroll do usuário</strong>, através do método <strong>"getBoundingClientRect()"</strong> com a propriedade ".top" diminuindo 300.</p>
-	<p>Depois, usando a condicional "if" é passado o seguinte argumento: topSection <= 0; Ou seja, quando o topo da section for menor ou igual a 0, adicione a classe "animationSection"</p>
+	<p>Depois, usando a condicional "if" é passado o seguinte argumento: topSection <= 0; Ou seja, quando o topo da section for menor ou igual a 0, adicione a classe "animationSection".</p>
 </div>
 	
 <div align="center">
 	<img src="https://user-images.githubusercontent.com/112639055/224488850-693ee6c9-bfaa-457d-a430-94e224f6670f.png" width="700px">
 </div>
 
+&nbsp;
+
+
 <div>
-	<p>Com a adição da classe, o opacity da section passa a ser <strong>1 fazendo o conteúdo aparecer novamente.</strong> Também é aplicada uma animação com @keyFrames para fazer o conteúdo aparecer da esquerda para a direita através da propriedade <strong>"transform:".</strong> Animação suave.<p>
+	<p>Com a adição da classe, o opacity da section passa a ser <strong>1 fazendo o conteúdo aparecer novamente.</strong> Também é aplicada uma <strong>animação com @keyFrames</strong> para fazer o conteúdo aparecer da esquerda para a direita através da propriedade <strong>"transform:".</strong> Animação suave.<p>
 </div>
 
 <div align="center">
 	<img src="https://user-images.githubusercontent.com/112639055/224489316-91baa20b-65c4-45e7-ac62-ac48c9d85291.png" width="700px">
 </div>
 
+#### RESULTADO:
 
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224502433-d84b4d34-c895-4618-a607-d03804f9e92b.gif" width="700px">
+</div>
 
+#### Show content - Aparecer conteúdo
 
-
-
-
-
+<div>
+	
+</div>
 
