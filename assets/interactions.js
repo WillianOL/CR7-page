@@ -1,15 +1,15 @@
 function initScrollSuave() {
-    const links = document.querySelectorAll('.menuJs a'); // Seleciona todos os links do menu de navegação.
+    const links = document.querySelectorAll('.menuJs a'); 
     function scrollParaSection(event) {
-        event.preventDefault(); //Desliga o comportamento padrão dos links, ou seja, a navegação interna.
-        const href = event.target.getAttribute('href'); // Pegando o href dos links, ids ligados as sections
-        const section = document.querySelector(href); // Recebendo o href dos links
-        section.scrollIntoView({ // Método para fazer o scroll suave na página, indo diretamente para a section passada no href.
+        event.preventDefault(); 
+        const href = event.target.getAttribute('href'); 
+        const section = document.querySelector(href); 
+        section.scrollIntoView({ 
             behavior: "smooth",
         });
     }
 
-    links.forEach((link) => { // Cria a função com evento de click nos links.
+    links.forEach((link) => { 
         link.addEventListener('click', scrollParaSection);
     });
 }
@@ -21,7 +21,7 @@ function initContentShow() {
         sections.forEach((section) => { // Método forEach
             const topSection = section.getBoundingClientRect().top - 300; // Pega o topo da section selecionada com -300 para aparecer antes.
             if(topSection <= 0){ // Quando essa altura for <= a 0, adiciona a classe para aparecer o conteúdo da section.(animado com CSS)
-                section.classList.add('animationSection')
+                section.classList.add('animationSection');
             }
         })
     }
