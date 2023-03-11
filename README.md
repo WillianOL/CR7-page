@@ -64,6 +64,7 @@
 <div align="center">
 	<img src="https://user-images.githubusercontent.com/112639055/224106565-7ff8ec48-bd6e-4e90-9b80-ca3a5d789531.gif" width="700px">
 	<img src="https://user-images.githubusercontent.com/112639055/224107651-21da8725-9dc1-4db1-8419-69cc5e2de02a.png" width="700px">
+	<img src="https://user-images.githubusercontent.com/112639055/224488127-c42c7a74-9bec-4ce0-a7fc-16da50d2d280.png" width="700px">
 </div>
 
 #### Conteúdo principal
