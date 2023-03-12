@@ -64,6 +64,7 @@
 <div align="center">
 	<img src="https://user-images.githubusercontent.com/112639055/224106565-7ff8ec48-bd6e-4e90-9b80-ca3a5d789531.gif" width="700px">
 	<img src="https://user-images.githubusercontent.com/112639055/224107651-21da8725-9dc1-4db1-8419-69cc5e2de02a.png" width="700px">
+	<img src="https://user-images.githubusercontent.com/112639055/224488127-c42c7a74-9bec-4ce0-a7fc-16da50d2d280.png" width="700px">
 </div>
 
 #### Conteúdo principal
@@ -154,10 +155,56 @@
 &nbsp;
 	
 <div>
-	<p>Na estrutura da função, é criada uma <strong>constante que seleciona todas as sections da página, uma NodeList.</strong> Usa-se o método <strong>"forEach"</strong> com o <strong>parâmetro "section"</strong> para trabalhar com a lista de elementos. Logo após, é <strong>criada uma constante (topSection) para pegar o topo da section em relação ao scroll do usuário</strong>, através do método <strong>"getBoundingClientRect()"</strong> com a propriedade ".top" diminuindo 300.</p>
-	<p>Depois, usando a condicional "IF" é passado o argumento: topSection <= 0; Ou seja, quando o topo da section for menor ou igual a 0, adicione a classe "animationSection" </p>
+	<p>Na estrutura da função, é criada uma <strong>constante que seleciona todas as sections da página, uma NodeList.</strong> Usa-se o método <strong>"forEach"</strong> com o <strong>parâmetro "section"</strong> para trabalhar com a lista de elementos. Logo após, é <strong>criada uma constante(topSection) para pegar o topo da section em relação ao scroll do usuário</strong>, através do método <strong>"getBoundingClientRect()"</strong> com a propriedade ".top" diminuindo 300.</p>
+	<p>Depois, usando a condicional "if" é passado a seguinte condição: topSection <= 0; Ou seja, <strong>quando o topo da section for menor ou igual a 0, adicione a classe "animationSection".</strong></p>
 </div>
 	
 <div align="center">
-	<img src="https://user-images.githubusercontent.com/112639055/224200064-9bdee69e-2041-4f0f-9577-5efe70a66a71.png" width="700px">
+	<img src="https://user-images.githubusercontent.com/112639055/224488850-693ee6c9-bfaa-457d-a430-94e224f6670f.png" width="700px">
 </div>
+
+&nbsp;
+
+<div>
+	<p>Com a adição da classe, o opacity da section passa a ser <strong>1 fazendo o conteúdo aparecer novamente.</strong> Também é aplicada uma <strong>animação com @keyFrames</strong> para fazer o conteúdo aparecer da esquerda para a direita através da propriedade <strong>"transform:".</strong> Animação suave.<p>
+</div>
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224489316-91baa20b-65c4-45e7-ac62-ac48c9d85291.png" width="700px">
+</div>
+
+#### RESULTADO:
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224502433-d84b4d34-c895-4618-a607-d03804f9e92b.gif" width="700px">
+</div>
+
+#### Scroll suave - links internos
+
+<div>
+	<p>Primeiro, é <strong>selecionado todos os links internos</strong> do menu através do "querySelectorAll" gerando assim uma NodeList com todos os links.</p>
+</div>
+	
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224503107-e69453c3-fec5-42e0-ae56-ac664298d1b3.png" width="700px">
+</div>
+	
+&nbsp;
+
+<div>
+	<p>Depois, usando o método <strong>"forEach"</strong> para trabalhar com a NodeList, passando o argumento <strong>"link"</strong>, cria-se uma <strong>função com o evento de click em cada link.</strong></p>
+</div>
+	
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224503380-a18230b2-fbb9-4d68-93c7-815315e1606a.png" width="700px">
+</div>
+
+<div>
+	<p>Na função, é passado o parâmetro <strong>"event",</strong> que juntamente com o método <strong>"preventDefault()" desabilita o comportamento padrão dos links internos.</strong> Ou seja, ao clicar nele não direciona ao link passado no href.</p>
+	<p>Logo após, é criada uma contante(href), que com o <strong>"event.target" e o método "getAttribute()"</strong> vai pegar o href do link clicado, que nele está o <strong>id lincado a section.</strong> Depois é criado uma constante(section) que vai pegar o id da constante href através do ".querySelector()".</p>
+</div>
+
+&nbsp;
+
+
+
