@@ -1,15 +1,13 @@
 function initScrollSuave() {
-    const links = document.querySelectorAll('.menuJs a'); 
+    const links = document.querySelectorAll('.menuJs a'); // Seleciona todos os links do menu de navegação.
     function scrollParaSection(event) {
-        event.preventDefault(); 
-        const href = event.target.getAttribute('href'); 
-        const section = document.querySelector(href); 
-        section.scrollIntoView({ 
-            behavior: "smooth",
-        });
+        event.preventDefault(); //Desliga o comportamento padrão dos links, ou seja, a navegação interna.
+        const href = event.target.getAttribute('href'); // Pegando o href dos links.
+        const section = document.querySelector(href); // Pegando o id do href ligado a section
+        section.scrollIntoView({ behavior: "smooth", });  // Método para fazer o scroll suave na página, indo diretamente para a section passada no href.
     }
 
-    links.forEach((link) => { 
+    links.forEach((link) => { // Cria a função com evento de click nos links.
         link.addEventListener('click', scrollParaSection);
     });
 }
