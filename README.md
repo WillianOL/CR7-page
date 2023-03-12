@@ -265,3 +265,12 @@
 <div align="center">
 	<img src="https://user-images.githubusercontent.com/112639055/224580552-eef5388f-c3ac-48dc-bf8c-dbe61dc1bbdf.png" width="700px">
 </div>
+
+#### RESULTADO
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224581398-4dcb7c70-2ef5-43e3-a346-86932f14eba0.gif" width="280px">
+	<img src="https://user-images.githubusercontent.com/112639055/224581505-4ce639fe-0904-438a-8377-0d88a6ed74cd.jpg" width="275px">
+</div>
+
+
