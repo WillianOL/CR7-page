@@ -916,7 +916,3 @@ body::-webkit-scrollbar-thumb{
     background-color: #D92B4B;
     border-radius: 10px;
 }
-
-body::-webkit-scrollbar-track{
-    padding: 5px;
-}
