@@ -10,21 +10,23 @@
 	<img src= "https://user-images.githubusercontent.com/112639055/223586729-982c9848-a174-46ac-a682-4f6e06be77a3.png" width='850px'>
 </div>
 
-<div>
-
 ## Ferramentas utilizadas🛠️
+
+<div>
+	<p>Para a elaboração do projeto, foram usadas as tecnologias: </p>
+</div>
 
 <ul>
 	<li> 
-		<img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><p>Ulitizado em larga escala no projeto, com muitos elementos, <strong>como imagens, textos, inputs e links internos</strong> para navegação.</p>
+		<img align="center" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> HTML
  	</li>
  <br>
  	<li> 
-  		<img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"><p>Utilizado para fazer todo o estilo do projeto, com cores base e <strong>elementos feitos com o proprio CSS,</strong> como a barra de status do jogador, entre outros. Também usado para fazer as <strong>animações da página.</strong></p> 
+  		<img align="center" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> CSS 
  	</li>
  <br>
  	<li>
-  		<img align="center" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"><p>Muito utilizado para fazer as funcionalidades do projeto, como <strong>animação de aparecer o conteúdo</strong>, <strong>scroll suave dos links internos</strong> e o <strong>menu mobile para aparelhos menores.</strong> (também animado)<p>
+  		<img align="center" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JavaScript
  	</li>
 </ul>
 
@@ -33,9 +35,13 @@
 </div>
 	
 <div>
-	<p>Projeto desenvovido com objetivo de praticar as principáis ferramentas que estou usando atualmente(JavaScript, CSS & HTML), e testar os conhecimentos nas mesmas. Uma página completa sobre o jogador Cristiano Ronaldo, com informações sobre a história que ele fez no futebol.</p>
+	<p>Projeto desenvovido com objetivo de praticar as principáis ferramentas que estou usando atualmente(JavaScript, CSS & HTML), e testar novos conhecimentos nas mesmas. Uma página completa sobre o jogador Cristiano Ronaldo, com informações sobre a história que ele fez no futebol.</p>
 	<p>Com duas cores base e de destaque em todo o projeto, seu estilo tende a ser moderno, tanto em design quanto em sua estrura. A maioria dos elementos da página são animados. Com funcionalidades feitas com JavaScript, dando um charme a mais na página.</p>
 </div>
+
+### Acessar projeto: 
+
+<a href="https://willianol.github.io/CR7-page/assets/index.html">CR7 WebPage</a>
 
 #
 
@@ -201,10 +207,11 @@
 
 <div>
 	<p>Na função, é passado o parâmetro <strong>"event",</strong> que juntamente com o método <strong>"preventDefault()" desabilita o comportamento padrão dos links internos.</strong> Ou seja, ao clicar nele não direciona ao link passado no href.</p>
-	<p>Logo após, é criada uma contante(href), que com o <strong>"event.target" e o método "getAttribute()"</strong> vai pegar o href do link clicado, que nele está o <strong>id lincado a section.</strong> Depois é criado uma constante(section) que vai pegar o id da constante href através do ".querySelector()".</p>
+	<p>Logo após, é criada uma contante(href), com o <strong>"event.target" e o método "getAttribute()"</strong> vai pegar o href do link clicado, que nele está o <strong>id lincado a section.</strong> Depois é criado uma constante(section) que vai pegar o id da constante href através do ".querySelector()".</p>
+	<p>Para fazer o scroll suave, na constante section utilizei do método "scrollInView()".</p>
 </div>
 
-&nbsp;
-
-
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224518113-9655837b-d433-47ac-bc6f-15122b8501ed.png" width="700px">
+</div>
 
