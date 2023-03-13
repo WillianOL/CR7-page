@@ -35,6 +35,6 @@ function iniMenuMobile() {
         menu.classList.toggle('ativo'); // Adiciona a classe caso tenha, remove caso não tenha
     }
     
-    btnMobile.addEventListener('click', abrirMenuMobile) // Função com evento de click do menu mobile.
+    btnMobile.addEventListener('click', abrirMenuMobile); // Função com evento de click do menu mobile.
 }
 iniMenuMobile();
