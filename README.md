@@ -7,7 +7,7 @@
 </div>
 
 <div align='center'>
-	<img src= "https://user-images.githubusercontent.com/112639055/223586729-982c9848-a174-46ac-a682-4f6e06be77a3.png" width='850px'>
+	<img src= "https://user-images.githubusercontent.com/112639055/224774252-b82e34f6-365c-4941-8dcb-722262dc7e57.png" width='850px'>
 </div>
 
 ## Ferramentas utilizadas🛠️
