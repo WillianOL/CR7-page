@@ -7,7 +7,7 @@
 </div>
 
 <div align='center'>
-	<img src= "https://user-images.githubusercontent.com/112639055/223586729-982c9848-a174-46ac-a682-4f6e06be77a3.png" width='850px'>
+	<img src= "https://user-images.githubusercontent.com/112639055/224774252-b82e34f6-365c-4941-8dcb-722262dc7e57.png" width='850px'>
 </div>
 
 ## Ferramentas utilizadas🛠️
@@ -36,10 +36,10 @@
 	
 <div>
 	<p>Projeto desenvovido com objetivo de praticar as principáis ferramentas que estou usando atualmente(JavaScript, CSS & HTML), e testar novos conhecimentos nas mesmas. Uma página completa sobre o jogador Cristiano Ronaldo, com informações sobre a história que ele fez no futebol.</p>
-	<p>Com duas cores base e de destaque em todo o projeto, seu estilo tende a ser moderno, tanto em design quanto em sua estrura. A maioria dos elementos da página são animados. Com funcionalidades feitas com JavaScript, dando um charme a mais na página.</p>
+	<p>Com duas cores base e de destaque em todo o projeto, seu estilo tende a ser moderno, tanto em design quanto em sua estrura. A maioria dos elementos da página são animados. Com funcionalidades feitas com JavaScript, dando um charme a mais na página. Toda a página é responsiva/adapitável a aparelhos menores.</p>
 </div>
 
-### Acessar projeto: 
+### Acessar projeto: ✈
 
 <a href="https://willianol.github.io/CR7-page/assets/index.html">CR7 WebPage</a>
 
@@ -208,10 +208,69 @@
 <div>
 	<p>Na função, é passado o parâmetro <strong>"event",</strong> que juntamente com o método <strong>"preventDefault()" desabilita o comportamento padrão dos links internos.</strong> Ou seja, ao clicar nele não direciona ao link passado no href.</p>
 	<p>Logo após, é criada uma contante(href), com o <strong>"event.target" e o método "getAttribute()"</strong> vai pegar o href do link clicado, que nele está o <strong>id lincado a section.</strong> Depois é criado uma constante(section) que vai pegar o id da constante href através do ".querySelector()".</p>
-	<p>Para fazer o scroll suave, na constante section utilizei do método "scrollInView()".</p>
+	<p>Para fazer o scroll suave, na constante section utilizei do método "scrollIntoView()".</p>
 </div>
 
 <div align="center">
 	<img src="https://user-images.githubusercontent.com/112639055/224518113-9655837b-d433-47ac-bc6f-15122b8501ed.png" width="700px">
 </div>
+
+#### RESULTADO:
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224577509-339c6cd6-7b62-47f4-9a01-e264c3adb26a.gif" width="700px">
+</div>
+
+&nbsp;
+&nbsp;
+
+#### Menu mobile lateral
+
+<div>
+	<p>Primeiro para fazer o menu mobile, ao chegar em determinada resolução de tela, o menu de navegação é escondido aplicando <strong>"display: none".</strong> No lugar, aparecendo o icone do menu mobile.</p>
+</div>
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224576811-3c9cadf4-0ec4-4778-b197-52310c50c661.png" width="700px">
+	<img src="https://user-images.githubusercontent.com/112639055/224577830-20cae78d-96b9-496b-bc44-2ceeb5e2b0fd.png" width="700px">
+</div>
+
+&nbsp;
+
+<div>
+	<p>No JavaScript, cria-se uma constante(btnMobile) para selecionar o botão do menu mobile do html através do ".querySelector()". Depois é criada uma função com o evento de click no btnMobile.</p>
+</div>
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224578334-d531a5b6-f523-4829-b8d8-68a0a08536e9.png" width="700px">
+	<img src="https://user-images.githubusercontent.com/112639055/224578325-fbe13672-1074-4649-b500-45eb4dd10823.png" width="700px">
+</div>
+
+&nbsp;
+
+<div>
+	<p>Na função, é criada uma <strong>constante para selecionar os botões de navegação do menu.</strong> Depois com o objeto <strong>"classList",</strong> usa-se o método <strong>".toggle" que vai adicionar a classe "ativo" ao menu de navegação, e remover caso o elemento já possua a classe.</strong></p>
+</div>
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224580058-95933fe3-23b4-4fee-b17d-4b6ef2ded77b.png" width="700px">
+</div>
+
+&nbsp;
+
+<div>
+	<p>Com a adição classe "ativo", no <strong>CSS é feita toda a estilização e a alteração de "display: none" para "display: flex".</strong></p>
+</div>
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224580552-eef5388f-c3ac-48dc-bf8c-dbe61dc1bbdf.png" width="700px">
+</div>
+
+#### RESULTADO
+
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/112639055/224581398-4dcb7c70-2ef5-43e3-a346-86932f14eba0.gif" width="280px">
+	<img src="https://user-images.githubusercontent.com/112639055/224581505-4ce639fe-0904-438a-8377-0d88a6ed74cd.jpg" width="275px">
+</div>
+
 
